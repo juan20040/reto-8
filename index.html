@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito de Compras</title>
+</head>
+<body>
+
+  <h1>Tienda</h1>
+
+  <div id="productos"></div>
+
+  <h2>Carrito</h2>
+  <ul id="carrito"></ul>
+
+  <p>Total productos: <span id="contador-carrito">0</span></p>
+
+  <button onclick="vaciarCarrito()">Vaciar carrito</button>
+
+  <p>Visitas: <span id="contador-visitas"></span></p>
+  <button onclick="filtrarCategoria('ropa')">Ropa</button>
+<button onclick="filtrarCategoria('tecnologia')">Tecnología</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
